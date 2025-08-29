@@ -1,0 +1,137 @@
+body {
+  background-image: url('../assets/light.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: makes it stay fixed when scrolling */
+  font-family: Arial, sans-serif;
+  width: 100vw;                    /* full viewport width */
+  margin: 0;
+  padding: 0;
+  display: flex;                   /* optional: for centering content */
+  justify-content: center;
+  align-items: center;
+  color: rgb(210, 220, 238);
+  overflow-y: scroll; /* always show vertical scrollbar */
+}
+h1.Greet {
+  color: white;;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+h4.pod{
+  color:rgb(97, 150, 240);
+}
+
+p.option{
+  font-size: 25px;
+  color: rgb(93, 134, 244);
+}
+h2.show{
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* horizontal-offset vertical-offset blur-radius color a=(Alpha (opacity))*/
+}
+h2.admin-title{
+  color: rgb(77, 160, 242);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+.landing{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(88, 122, 223);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width:100px;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(155, 186, 239);
+}
+.button2 {
+  cursor: pointer;
+  background-color: rgb(88, 122, 223);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width:100px;
+  padding: 10px;
+  margin-left: 175px;
+  border-radius: 5px;
+  
+}
+.button2:hover {
+  background-color: rgb(155, 186, 239);
+}
+.button3 {
+  cursor: pointer;
+  background-color: rgb(88, 122, 223);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width:100px;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 5px;
+  
+}
+.button3:hover {
+  background-color: rgb(155, 186, 239);
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;   /* Allows wrapping to the next row */
+  gap: 15px;        /* Space between products */
+  
+}
+
+.product-card {
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;      /* Each product’s width */
+  text-align: center;
+  transition: transform 0.2s;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.button4{
+  background-color: rgb(88, 122, 223);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+.button5{
+  background-color: rgb(88, 122, 223);
+  color: white;
+  display: block;        /* ensures it behaves like a block */
+
+  padding: 10px;
+  border-radius: 5px;
+   margin: 20px auto;     /* auto centers horizontally */
+
+}
+
